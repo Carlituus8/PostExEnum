@@ -90,7 +90,7 @@ function Supports-Param([string]$Cmd,[string]$Param){
 # =====================================
 # List public functions (no helpers)
 # =====================================
-$EnumFunctions = @('Enumerar-GPO') |
+$EnumFunctions = @('Enum-GPO') |
     Where-Object { Get-Command $_ -ErrorAction SilentlyContinue }
 
 $PrivFunctions = @(

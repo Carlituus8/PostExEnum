@@ -93,7 +93,7 @@ function Find-GPPPasswords {
     }
 }
 
-function Enumerar-GPO {
+function Enum-GPO {
     Enum-GPOApplied
     Enum-GPOLocalFolders
     Enum-GPOScripts
